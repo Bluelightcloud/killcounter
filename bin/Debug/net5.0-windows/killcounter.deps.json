@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "killcounter/1.0.0": {
+        "dependencies": {
+          "WebDriver": "3.14.0.0",
+          "Interop.MSScriptControl": "1.0.0.0"
+        },
+        "runtime": {
+          "killcounter.dll": {}
+        }
+      },
+      "WebDriver/3.14.0.0": {
+        "runtime": {
+          "WebDriver.dll": {
+            "assemblyVersion": "3.14.0.0",
+            "fileVersion": "3.14.0.0"
+          }
+        }
+      },
+      "Interop.MSScriptControl/1.0.0.0": {
+        "runtime": {
+          "Interop.MSScriptControl.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "killcounter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebDriver/3.14.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.MSScriptControl/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
